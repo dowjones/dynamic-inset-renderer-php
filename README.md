@@ -5,6 +5,11 @@ This php library is a reference implementation of a renderer for the [inset.json
 
 The library takes a remote inset.json file, finds the data and template urls, requests them, and returns the rendered result. The individual assets are available after rendering for access or post-processing as well.
 
+##Note:
+This library uses the [mustache.php](https://github.com/bobthecow/mustache.php/)
+renderer, embedded in this repo for the time being. It will later be replaced by a
+[Composer-compatible](https://getcomposer.org/) package.
+
 ###PHP library
 ```php
 <?php
